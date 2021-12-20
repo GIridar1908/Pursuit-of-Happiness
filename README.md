@@ -1,2 +1,3 @@
 # Pursuit-of-Happiness
-A system given to me by Yuliy Baryshnikov of UIUC 
+A system given to me by Yuliy Baryshnikov of UIUC . The Jupyter notebook is fairly self contained and explains the problem as well as the observations and other very luminating analysis.
+TLDR: The "pursuit of happiness" algorithm is a purely stochastic gradient descent algorithm which always eventually finds the global maxima of given happiness function. For a global maxima that is 'p' concave , that is all derivatves upto the p-th derivative are zero, in N iteration it will reach within N^{-p/(p+1)} of the global maxima. Most likely p=1 which means the algorithm finds the maxima within error N^{-0.5}.  
